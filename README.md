@@ -120,6 +120,7 @@ TCN excels with explicit temporal signals (1D keypoints with velocity), while GR
 ```
 cv-medislr/
 ├── demo.ipynb
+├── demo_README.md
 ├── modeling/
 │   ├── 1d/
 │   ├── 2d_sequence/
