@@ -136,7 +136,7 @@ cv-medislr/
 
 ## Demo
 
-The demo.ipynb notebook demonstrates inference-only execution using pretrained models.
+The `demo.ipynb` notebook demonstrates inference-only execution using pretrained models.
 
 - No training is performed
 - Lightweight sample tensors are used
@@ -158,8 +158,8 @@ https://drive.google.com/drive/u/2/folders/10uM25Xfm6KCamKFkzoV2dMvfjE5hPQAR
 
 The Drive folder includes:
 - Pretrained model checkpoints (data/preprocessed/model_weights)
-- Demo-related files
-- Additional data required for inference
+- Demo-related files(`demo.ipynb`)
+- Sample data required for inference
 
 ## Notes
 
