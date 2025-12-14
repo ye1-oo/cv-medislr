@@ -135,15 +135,36 @@ cv-medislr/
 
 ## Demo
 
-The file `demo.ipynb` provides **inference-only demonstrations** using pretrained checkpoints and lightweight sample tensors.  
-Training is intentionally excluded from the demo notebook.
+The demo.ipynb notebook demonstrates inference-only execution using pretrained models.
 
-## Future Work
+- No training is performed
+- Lightweight sample tensors are used
+- Intended to be run on Google Colab
 
-- Expansion to larger vocabularies and more signers
-- Extension to continuous sign language recognition
-- Improved robustness in real clinical environments
-- Multimodal fusion and confidence estimation
+Before running the demo, users must modify file paths to match their own Google Drive mount
+location. Detailed instructions are provided in demo_README.md.
+
+## Full Data and Pretrained Models
+
+Due to GitHub file size limitations, the following are not fully included in this repository:
+
+- Full preprocessed datasets
+- Most pretrained model weights
+
+They are available via Google Drive at the following link:
+
+https://drive.google.com/drive/u/2/folders/10uM25Xfm6KCamKFkzoV2dMvfjE5hPQAR
+
+The Drive folder includes:
+- Pretrained model checkpoints (data/preprocessed/model_weights)
+- Demo-related files
+- Additional data required for inference
+
+## Notes
+
+- This repository is intended for reproducibility and demonstration
+- Training requires external data and pretrained checkpoints
+- All reported results correspond to pretrained models
 
 ## Reference
 
